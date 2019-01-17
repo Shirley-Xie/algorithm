@@ -1,3 +1,4 @@
+#coding:utf-8
 arr =   [12, 34, 54, 2, 3, 9, 10]
 arr_s = [2, 3, 9, 10, 12, 34, 54]
 n = len(arr_s)
@@ -24,8 +25,6 @@ def linearSearch_rec(arr, l, r, x):
     return linearSearch_rec(arr, l+1, r, x)
 
 # linearSearch_rec(arr, 0, n - 1, x)
-
-
 # 2 二分查找, 有序的
 def binarySearch1(arr, x, low, high):
     # 使用循环操作
